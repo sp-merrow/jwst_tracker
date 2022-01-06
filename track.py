@@ -16,7 +16,7 @@ speed = driver.find_element(By.ID, 'speedMi')
 tempWarm = driver.find_element(By.ID, 'tempWarmSide2F')
 tempCold = driver.find_element(By.ID, 'tempCoolSide2F')
 
-print(f'The James Webb Space Telescope...\n\n-is {milesAway.text} miles away from earth\n\
+print(f'The James Webb Space Telescope...\n\n-is {milesAway.text} miles away from Earth\n\
 -is {l2.text} miles away from the L2 point\n-has completed {percentage.text}% of its journey\n-is travelling at \
 {speed.text} miles per second\n-is at {tempWarm.text}°F on its warm side\n-is at {tempCold.text}°F on its cold side')
 
